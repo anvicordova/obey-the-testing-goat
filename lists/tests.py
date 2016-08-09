@@ -47,4 +47,4 @@ class ItemModelTest(TestCase):
         second_saved_item = saved_items[1]
 
         self.assertEqual(first_saved_item.text, 'The first (ever) list item')
-        self.asserEqual(second_saved_item.text, 'Item the sencond')
+        self.assertEqual(second_saved_item.text, 'Item the second')
